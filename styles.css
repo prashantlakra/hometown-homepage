@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.hero-section {
+    background-image: url(images/siliguri.jpg);
+    background-size: cover;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-title {
+    font-size: 42px;
+    padding: 5px 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: #1D3557;
+    color: #F1FAEE;
+}
+
+#hero-description {
+    width: 572px;
+    font-size: 26px;
+    padding: 5px 25px;
+    border-radius: 15px;
+    background-color: #457B9D;
+    color: #F1FAEE;
+}
+
+.activities-section {
+    height: 500px;
+    background-color: #F1FAEE;
+    color: #1D3557;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#activities-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+    margin-top: -30px;
+}
+
+.activities-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.activities {
+    width: 250px;
+    font-size: 20px;
+}
+
+.activities img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+
+.activities h4 {
+    margin: 15px 0;
+}
+
+.guide-section {
+    height: 530px;
+    display: flex;
+    align-items: center;
+}
+
+.guide-container {
+    display: flex;
+    border-radius: 15px;
+    border-bottom: 10px solid #1D3557;
+    background-color: #A8DADC;
+    color: #1D3557;
+    width: 630px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 40px 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.guide-avatar {
+    width: 270px;
+    border-radius: 15px;
+}
+
+.guide-copy {
+    width: 270px;
+}
+
+.guide-copy h3 {
+    font-size: 30px;
+}
+
+.guide-copy p {
+    margin: 20px 0;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.guide-copy h4 {
+    font-size: 20px;
+}
